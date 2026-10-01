@@ -31,7 +31,7 @@ export function TopPredictions({
         <div className="space-y-2">
           {predictions.map((p, i) => {
             const isSelected = p.rank === selectedRank;
-            const confValue = p.confidence ?? p.probability ?? 0;
+            const confValue = p.confidence ?? 0;
             return (
               <motion.div
                 key={p.rank}
