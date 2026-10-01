@@ -1,0 +1,49 @@
+{
+  "project": "Zidio Project 2",
+  "model_name": "Logistic Regression",
+  "model_type": "LogisticRegression",
+  "target_column": "disease",
+  "num_features": 230,
+  "num_classes": 99,
+  "feature_type": "binary symptom indicators",
+  "feature_values": [
+    0,
+    1
+  ],
+  "training_dataset": {
+    "rows": 80746,
+    "features": 230,
+    "classes": 99,
+    "split_method": "global pattern-aware GroupShuffleSplit"
+  },
+  "test_dataset": {
+    "rows": 20195,
+    "features": 230,
+    "classes": 99
+  },
+  "performance": {
+    "accuracy": 0.9049269621193364,
+    "balanced_accuracy": 0.9070105100091072,
+    "macro_f1": 0.9053619922515194,
+    "weighted_f1": 0.904811451735124,
+    "top_3_accuracy": 0.9870264917058678,
+    "top_5_accuracy": 0.9966823471156226,
+    "top_10_accuracy": 0.999603862342164
+  },
+  "confidence_analysis": {
+    "expected_calibration_error": 0.021684,
+    "brier_score": 0.043379,
+    "threshold_70_accuracy": 0.997709,
+    "threshold_70_coverage": 0.82149,
+    "threshold_80_accuracy": 1.0,
+    "threshold_80_coverage": 0.806239
+  },
+  "robustness": {
+    "baseline_accuracy": 0.904927,
+    "10_percent_symptom_removal_accuracy": 0.904778,
+    "25_percent_symptom_removal_accuracy": 0.851944,
+    "50_percent_symptom_removal_accuracy": 0.701461,
+    "75_percent_symptom_removal_accuracy": 0.454419
+  },
+  "package_created": "2026-09-20T07:28:00.743768"
+}

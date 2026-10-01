@@ -1,0 +1,6 @@
+test_case,input_symptoms,prediction,confidence,recognized_count,unrecognized_count,description_available,precautions_count,medications_count,diet_count,workout_count,top_3_predictions
+Respiratory,"fever, cough, fatigue",otitis externa (swimmer's ear),0.0772963309495559,3,0,True,4,5,5,4,otitis externa (swimmer's ear) (0.0773) | conjunctivitis (0.0723) | nose disorder (0.0634)
+Digestive,"nausea, vomiting, abdominal pain",drug reaction,0.10599092482450127,2,1,True,4,5,5,4,drug reaction (0.1060) | concussion (0.0839) | urinary tract infection (0.0688)
+Pain,"back pain, joint pain, weakness",arthritis of the hip,0.3200552888092468,3,0,True,4,5,5,4,arthritis of the hip (0.3201) | degenerative disc disease (0.2486) | psoriasis (0.0612)
+Mixed,"fever, headache, nausea, dizziness",drug reaction,0.38441106141792036,4,0,True,4,5,5,4,drug reaction (0.3844) | concussion (0.1609) | hyperemesis gravidarum (0.1193)
+Unknown symptom,"fever, cough, not_a_real_symptom",otitis externa (swimmer's ear),0.0785277610450472,2,1,True,4,5,5,4,otitis externa (swimmer's ear) (0.0785) | conjunctivitis (0.0734) | sepsis (0.0667)

@@ -1,0 +1,6 @@
+test_case,input_symptoms,prediction,confidence,recognized_symptoms,unrecognized_symptoms,top_3_predictions
+Respiratory symptoms,"fever, cough, fatigue",otitis externa (swimmer's ear),0.0772963309495559,3,0,otitis externa (swimmer's ear) | conjunctivitis | nose disorder
+Digestive symptoms,"nausea, vomiting, abdominal pain",drug reaction,0.10599092482450127,2,1,drug reaction | concussion | urinary tract infection
+Pain symptoms,"back pain, joint pain, weakness",arthritis of the hip,0.3200552888092468,3,0,arthritis of the hip | degenerative disc disease | psoriasis
+Mixed symptoms,"fever, headache, nausea, dizziness",drug reaction,0.38441106141792036,4,0,drug reaction | concussion | hyperemesis gravidarum
+Case insensitive,"FEVER, COUGH, HEADACHE",nose disorder,0.22747525546440883,3,0,nose disorder | strep throat | common cold
